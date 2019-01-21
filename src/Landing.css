@@ -1,0 +1,359 @@
+.landing-outer-div {
+    font-family: Didot;
+    position: absolute;
+    width: 750px;
+    height: 600px;
+    background: linear-gradient(white, #8e8e8e);
+    display: inline-flex;
+    left: 50%;
+    top: 50%;
+    margin-left: -375px;
+    margin-top: -300px;
+    border-radius: 25px;
+    user-select: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+  }
+  
+  .landing-inner-div {
+    position: relative;
+    margin: auto 0;
+    width: 750px;
+    text-align: center;
+  }
+  
+  .landing-innermost-div {
+    padding: 10px;
+    color: #192231;
+    font-size: 16px;
+    margin-left: -300px;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 600px;
+    height: 40px;
+    position: relative;
+    line-height: 45px;
+  }
+  
+  .generic-register-div {
+    font-family: Didot;
+    position: fixed;
+    width: 500px;
+    height: 115px;
+    background: linear-gradient(transparent, transparent);
+    margin-left: -250px;
+    margin-top: -50px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    user-select: none;
+    overflow: auto;
+  }
+  
+  button {
+    outline: none;
+  }
+  
+  .student-table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 20%;
+    font-family: Didot;
+  }
+  
+  .student-table th {
+    text-align: left;
+    color: #a35167;
+    font-size: 16px;
+    cursor: default;
+  }
+  
+  .student-table th, td {
+    padding: 10px;
+    border-bottom: 1px solid #b2b2a7;
+  }
+  
+  .student-table tr:hover {
+    cursor: pointer;
+  }
+  
+  .student-table tr:first-child:hover {
+    background-color: transparent;
+    cursor: default;
+    box-shadow: none;
+    outline: 1px solid transparent;
+  }
+  
+  .student-button {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px #888888;
+  }
+  
+  .student-button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, #985E6D, #985E6D);
+    color: white;
+  }
+  
+  .register-button {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    position: absolute;
+    top: 1%;
+    left: 2.5%;
+  }
+  
+  .register-button td {
+    border-bottom: 1px solid transparent;
+    padding: 25px;
+  }
+  
+  .register-button button:active {
+    background: linear-gradient(#985E6D, #985E6D);
+  }
+  
+  .book:hover {
+    cursor: pointer;
+    outline: 3px solid skyblue;
+  }
+  
+  .book {
+    width: 90px;
+    height: 125px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+    opacity: 0.75;
+  }
+
+  .book-title {
+    font-size: 16px;
+  }
+  
+  .book-author {
+    font-size: 12px;
+  }
+  
+  .book-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-selection {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: 1px solid gray;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 1%;
+  }
+  
+  .book-selection:active {
+    background: linear-gradient(#985E6D, #985E6D);
+  }
+  
+  .nested-register-span {
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 5%;
+  }
+  
+  .nested-register-button {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px #888888;
+  }
+  
+  .nested-register-button:hover {
+    background: linear-gradient(#985E6D, #985E6D);
+    color: white;
+  }
+  
+  .nested-register-button:active {
+    background: linear-gradient(#985E6D, #985E6D);
+    color: white;
+  }
+  
+  .Collapsible__contentInner {
+    border-radius: 5px;
+    width: 680px;
+    padding: 10px;
+  }
+  
+  .Collapsible__contentOuter {
+    padding: 5px;
+  }
+  
+  .Collapsible__trigger {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .Collapsible__trigger:hover {
+    background: linear-gradient(#985E6D, #985E6D);
+    cursor: pointer;
+  }
+  
+  .Collapsible {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  
+  .group-table-tr th, .student-table-tr th {
+    font-size: 18px;
+  }
+
+  .users {
+    font-weight: bold;
+  }
+
+  .user-list {
+    font-family: Didot;
+    position: fixed;
+    width: 500px;
+    height: 140px;
+    background: linear-gradient(transparent, transparent);
+    margin-left: -250px;
+    margin-top: -70px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    user-select: none;
+    overflow: auto;
+  }
+
+  .user-list-submit {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px #888888;
+    left: 10%;
+    bottom: 7.5%;
+    outline: none;
+  }
+
+  .user-list-submit:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #985E6D, #985E6D);
+    color: white;
+    outline: none;
+  }
+
+  .user-list-button {
+    outline: none;
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px #888888;
+    bottom: 7.5%;
+  }
+
+  .user-list-button-1 {
+    left: 40%;
+  }
+
+  .user-list-button-2 {
+    left: 70%;
+  }
+
+  .user-list-button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #985E6D, #985E6D);
+    color: white;
+    outline: none;
+  }
+
+  .dropdown-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(white, #8e8e8e);
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid gray;
+    opacity: 0.7;
+    font-size: 12px;
+    user-select: none;
+  }
+
+  .dropdown-box:hover .dropdown-contents {
+    display: block;
+  }
+
+  .dropdown-box:hover {
+    width: 200px;
+    height: 90px;
+    opacity: 1;
+  }
+
+  .dropdown-box-title {
+    font-size: 14px;
+  }
+
+  .dropdown-box:hover .dropdown-box-title {
+    text-decoration: underline;
+  }
+
+  .dropdown-contents {
+    display: none;
+  }
+
+  .dropdown-box .student-button {
+    position: relative;
+    cursor: pointer;
+  }

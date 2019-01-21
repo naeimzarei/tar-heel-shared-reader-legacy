@@ -1,0 +1,42 @@
+{
+  "name": "tsreader",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^19.2.4",
+    "@types/node": "^7.0.24",
+    "@types/react": "^15.0.26",
+    "@types/react-dom": "^15.5.0",
+    "@types/react-modal": "^1.6.6",
+    "director": "^1.2.8",
+    "firebase": "^4.2.0",
+    "jquery": "^3.2.1",
+    "mobx": "^3.1.11",
+    "mobx-react": "^4.2.1",
+    "mobx-react-devtools": "^4.2.13",
+    "mobx-utils": "^2.0.1",
+    "react": "^15.5.4",
+    "react-accordion": "^0.1.0",
+    "react-collapsible": "^1.5.0",
+    "react-dom": "^15.5.4",
+    "react-key-handler": "^0.3.0",
+    "react-modal": "^1.7.7",
+    "react-responsive-accordion": "^1.0.0",
+    "runtypes": "^0.10.1"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "2.2.0"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://gb.cs.unc.edu/"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "homepage": "https://shared.tarheelreader.org"
+}
